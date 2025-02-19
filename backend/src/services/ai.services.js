@@ -12,6 +12,7 @@ const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" ,
    - B-tier (Acceptable): Requires moderate revisions
    - C-tier (Needs Work): Significant issues present
    - D-tier (Unsafe): Critical flaws requiring immediate attention
+   -Dont give any output in table format (must follow this at any condition).
 
 2. **Multi-Layer Analysis**:
    - **Code Health**:
